@@ -36,6 +36,11 @@ public class Configuration {
         return webDriverLocation;
     }
 
+    public static String getTestBrowser(){
+        String testBrowser = prop.getProperty("test.browser");
+        return testBrowser;
+    }
+
     public static void main(String[] args) {
         System.out.println(getApplicationUrl());
     }
