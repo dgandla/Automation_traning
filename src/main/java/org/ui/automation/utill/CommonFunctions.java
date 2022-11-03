@@ -11,10 +11,4 @@ public class CommonFunctions {
     public static void Enter_Text_In_Input(By webElement,String text){
         driver.findElement(webElement).sendKeys(text);
     }
-
-    public static String Get_Text(By webElement){
-        return driver.findElement(webElement).getText();
-    }
-
-
 }
