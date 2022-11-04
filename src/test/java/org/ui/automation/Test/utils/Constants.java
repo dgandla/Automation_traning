@@ -9,4 +9,6 @@ public interface Constants {
     String EMPTY_EMAIL_AND_PASSWORD = "An email address required.";
 
     String VALID_EMAIL_EMPTY_PASSWORD_ERROR_MESSAGE = "Password is required.";
+
+    String UNREGISTERED_EMAIL_ADDRESS =  "java@test.cc";
 }
